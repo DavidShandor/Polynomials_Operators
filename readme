@@ -1,0 +1,37 @@
+Username: Davidsa
+Name: David Shandor   id: 302902705
+
+Program Description:
+This program represent a Polynomial class, which can do some aritmethic operator on polynomials. The type of the polynomial can be only int, double or float. 
+The operators are:
+[] : Return the cell of the array at the given index, and put in the value.
+= : Put inside polynomial another one.
++ : Sum 2 (or more) polynomials.
+- : Substract 2 (or more) polynomials.
+* : Multiply 2 (or more) Polynomials.
++=, -=, *= : Sum, Substract and multiply THIS polynomial with OTHER polynomial.
+<< : Build ostream object of the polynomial, ready to print.
+
+Compilation:
+Ctrl+Shift+B -> Build-> Continue without scanning the task output.
+
+Launch the Program: 
+Ctrl+F5     
+
+Attached filed:
+MakeFile, launch.json, tasks.json- Configuration files.
+ex6_q2.cpp – The Main Program.
+Polynomial.h – Polynomial header file. Include template class T. 
+
+
+How to use the program:
+to create new polynomial: Polynomial<Type> "name";
+to initialize it: name[index] = T;
+to do aritmethic operator (3 pol):  poly3 = poly1 (choose: +, -, *) poly2;
+Or to do aritmethic operator(2 pol):  poly3 (choose: +=, -=, *=, =) poly2;
+To print: cout << nameOfPolynomial.
+
+NOTE:
+This program is NOT dynamic program, which mean user can't set command while running. 
+
+
